@@ -5,6 +5,9 @@
   "main": "main.tsx",
   "scripts": {
     "start": "webpack-dev-server",
+    "dev": "FLAVOR=\"development\" webpack-dev-server",
+    "stg": "FLAVOR=\"staging\" webpack-dev-server",
+    "prod": "FLAVOR=\"production\" webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "yukitaka13-1110",
